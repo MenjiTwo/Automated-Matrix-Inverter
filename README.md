@@ -25,8 +25,6 @@ A modern, user-friendly GUI application for computing matrix inverses using the 
 
 ### Windows (Executable)
 
-**No Python required!**
-
 1. Clone or download this repository
 2. Open the `dist` folder
 3. Double-click `MatrixInverter.exe`
@@ -173,7 +171,6 @@ Automated-Matrix-Inverter/
 | Package | Purpose |
 |---------|---------|
 | [SymPy](https://www.sympy.org/) | Symbolic mathematics for matrix operations |
-| tkinter | GUI framework (included with Python) |
 
 ---
 
@@ -182,7 +179,3 @@ Automated-Matrix-Inverter/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## Author
-
-**[MenjiTwo](https://github.com/MenjiTwo)**
