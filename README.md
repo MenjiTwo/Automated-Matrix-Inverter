@@ -1,4 +1,4 @@
-# 🧮 Automated Matrix Inverter
+# Automated Matrix Inverter
 
 A modern, user-friendly GUI application for computing matrix inverses using the Gauss-Jordan elimination method. Built with Python and Tkinter, featuring a clean interface with dark/light theme support.
 
@@ -8,20 +8,20 @@ A modern, user-friendly GUI application for computing matrix inverses using the 
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 📐 **Matrix Sizes** | Supports 2×2 up to 10×10 matrices |
-| 🔢 **Symbolic Math** | Handles fractions, decimals, and algebraic variables (a, b, c...) |
-| 📝 **Step-by-Step** | Shows all elementary row operations performed |
-| 🌓 **Theme Toggle** | Switch between light and dark modes |
-| 🔄 **Format Toggle** | View results as fractions or decimals |
-| 🎨 **Modern UI** | Rounded buttons and smooth visual design |
+| **Matrix Sizes** | Supports 2×2 up to 10×10 matrices |
+| **Symbolic Math** | Handles fractions, decimals, and algebraic variables (a, b, c...) |
+| **Step-by-Step** | Shows all elementary row operations performed |
+| **Theme Toggle** | Switch between light and dark modes |
+| **Format Toggle** | View results as fractions or decimals |
+| **Modern UI** | Rounded buttons and smooth visual design |
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 | Requirement | Version |
 |-------------|---------|
@@ -31,7 +31,7 @@ A modern, user-friendly GUI application for computing matrix inverses using the 
 
 ---
 
-## 🚀 Quick Installation
+## Quick Installation
 
 ### Windows
 
@@ -75,18 +75,17 @@ python3 Automated-Matrix-Inverter.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 All dependencies are automatically installed by the installation scripts.
 
 | Package | Purpose |
 |---------|---------|
 | `sympy` | Symbolic mathematics library for matrix operations |
-| `tkinter` | GUI framework (built into Python) |
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 1. **Launch the application** using the install script or manually
 2. **Select matrix size** (2×2 to 10×10) from the dropdown
@@ -99,18 +98,16 @@ All dependencies are automatically installed by the installation scripts.
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
 | `ModuleNotFoundError: No module named 'sympy'` | Run `pip install sympy` or use the install script |
 | `ModuleNotFoundError: No module named 'tkinter'` | Install tkinter for your OS (see installation section) |
-| Matrix has no inverse | The matrix is singular (determinant = 0) |
-| Window appears incorrectly | Try toggling the theme button (bottom-right corner) |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LinAlg/
@@ -125,19 +122,19 @@ LinAlg/
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **MenjiTwo**
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [SymPy](https://www.sympy.org/) - Python library for symbolic mathematics
 - Gauss-Jordan elimination algorithm for matrix inversion
