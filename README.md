@@ -56,11 +56,6 @@ python Automated-Matrix-Inverter.py
 
 > **Note:** If `python` doesn't work, try `py` or `python3` instead.
 
-**Option 3: One-Liner (Copy & Paste)**
-```cmd
-pip install sympy && python Automated-Matrix-Inverter.py
-```
-
 ---
 
 ### macOS / Linux
