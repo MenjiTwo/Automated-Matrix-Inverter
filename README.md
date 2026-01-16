@@ -35,42 +35,71 @@ A modern, user-friendly GUI application for computing matrix inverses using the 
 
 ### Windows
 
-**Option 1: One-Click Install (Recommended)**
+**Option 1: One-Click Install**
+1. Download or clone this repository
+2. Double-click `install.bat`
+3. When prompted, type `Y` and press Enter to launch
+
+**Option 2: Manual Install (Recommended if Option 1 fails)**
+
+Open **Command Prompt** or **PowerShell**, then run:
 ```cmd
-install.bat
+# Navigate to the project folder (change path as needed)
+cd "C:\path\to\Automated-Matrix-Inverter"
+
+# Install the required package
+pip install sympy
+
+# Run the application
+python Automated-Matrix-Inverter.py
 ```
 
-**Option 2: Manual Install**
+> **Note:** If `python` doesn't work, try `py` or `python3` instead.
+
+**Option 3: One-Liner (Copy & Paste)**
 ```cmd
-pip install sympy
-python Automated-Matrix-Inverter.py
+pip install sympy && python Automated-Matrix-Inverter.py
 ```
 
 ---
 
 ### macOS / Linux
 
-**Option 1: One-Click Install (Recommended)**
+**Option 1: One-Click Install**
 ```bash
-chmod +x install.sh
-./install.sh
+chmod +x install.sh && ./install.sh
 ```
 
 **Option 2: Manual Install**
+
+Open **Terminal** and run:
 ```bash
-# Install tkinter if not present (Linux only)
-# Ubuntu/Debian:
+# Navigate to the project folder
+cd /path/to/Automated-Matrix-Inverter
+
+# Install sympy
+pip3 install sympy
+
+# Run the application
+python3 Automated-Matrix-Inverter.py
+```
+
+**Linux Users - Install tkinter first (if not installed):**
+```bash
+# Ubuntu/Debian
 sudo apt-get install python3-tk
 
-# Fedora:
+# Fedora
 sudo dnf install python3-tkinter
 
-# macOS (tkinter comes with Python from python.org or brew)
-brew install python-tk
+# Arch
+sudo pacman -S tk
+```
 
-# Install dependencies and run
-pip3 install sympy
-python3 Automated-Matrix-Inverter.py
+**macOS Users:**
+```bash
+# If using Homebrew Python
+brew install python-tk
 ```
 
 ---
@@ -102,8 +131,11 @@ All dependencies are automatically installed by the installation scripts.
 
 | Issue | Solution |
 |-------|----------|
-| `ModuleNotFoundError: No module named 'sympy'` | Run `pip install sympy` or use the install script |
-| `ModuleNotFoundError: No module named 'tkinter'` | Install tkinter for your OS (see installation section) |
+| `'python' is not recognized` | Try using `py` or `python3` instead. Or reinstall Python and check "Add to PATH" |
+| `ModuleNotFoundError: No module named 'sympy'` | Run `pip install sympy` (or `pip3 install sympy` on macOS/Linux) |
+| `ModuleNotFoundError: No module named 'tkinter'` | **Linux:** `sudo apt-get install python3-tk` **macOS:** `brew install python-tk` |
+| `install.bat` doesn't work | Right-click → "Run as administrator" OR use Manual Install steps above |
+| Nothing happens when double-clicking `.py` file | Use Command Prompt/Terminal to run manually (see Manual Install) |
 
 ---
 
